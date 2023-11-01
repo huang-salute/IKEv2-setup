@@ -11,7 +11,7 @@ echo
 
 function exit_badly {
   echo "$1"
-  exit 2
+  exit 1
 }
 
 UBUNTUVERSION=$(lsb_release -rs)
